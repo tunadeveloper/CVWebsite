@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.navSection{
+background-color: purple;
+min-height: 90vh;
+color: white;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.links a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.contact{
+    background-color: white;
+    padding: 16px 24px;
+    text-decoration: none;
+    color: purple;
+    border-radius: 30px;
+    transition: opacity 0.3s;
+}
+
+.contact:hover{
+    opacity: 0.8;
+}
+
+.personalDiv{
+    padding: 0 20%;
+}
+
+.title{
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 30px 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.title2{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.aboutMe p{
+    width: 50%;
+    
+}
+
+.skills{
+    display: flex;
+    width: 50%;
+    list-style: none;
+}
+
+.skills li{
+    padding: 15px;
+}
+
+#blog{
+    padding: 64px 20%;
+}
+
+.mainTitle{
+    font-size: 60px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.blogText{
+    font-size: 20px;
+}
+
+.blogTitle{
+    font-weight: 500;
+}
+
+.blog-post{
+    margin-top: 60px;
+}
+
+#education{
+    background-color: purple;
+    padding: 64px 20%;
+}
+
+#education .mainTitle{
+    color: white;
+}
+.eventDate{
+    transition: all 0.4s;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.event{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid white;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px 0;
+    color: white;
+    background-color: rgba(192, 1, 192, 0.421);
+    transition: all 0.4s;
+    
+}
+
+.event:hover{
+    background-color: white;
+    color: purple;
+    .eventDate{
+        color: purple;
+    }
+}
+
+.eventTitle{
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 64px;
+
+}
+
+.footerContent{
+    text-align: center;
+}
+
+i{
+    color: white;
+    background-color: purple;
+    padding: 4px;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-size: 30px;
+    transition: all 0.3s;
+    margin-right: 8px;
+}
+
+i:hover{
+    background-color: white;
+    color: purple;
+    border-color: rgb(180, 1, 180);
+}
