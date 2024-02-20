@@ -152,9 +152,9 @@ i{
     padding: 4px;
     border-radius: 50%;
     border: 2px solid white;
-    font-size: 30px;
+    font-size: 35px;
     transition: all 0.3s;
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 i:hover{
