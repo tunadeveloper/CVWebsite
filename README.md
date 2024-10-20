@@ -1,4 +1,4 @@
-# 🖼️ **İç Mimar Tanıtım Projesi**
+# 🖼️ **Kişisel Portfolyo Projesi**
 
 ---
 ![1](https://github.com/user-attachments/assets/d5c97c60-444e-49c0-a46a-9e7d0bb1cf01)
